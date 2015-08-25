@@ -11,7 +11,18 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        //mission alias name
+        'mission' => [
+            'class' => 'backend\modules\mission\Module',
+        ],
+        'personal' => [
+            'class' => 'backend\modules\personal\Module',
+        ],
+        'setting' => [
+            'class' => 'backend\modules\setting\Module',
+        ],
+    ],
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',

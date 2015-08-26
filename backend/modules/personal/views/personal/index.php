@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\helpers\ArrayHelper;
+use backend\modules\setting\models\Department;
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\modules\personal\models\PersonalSearch */
@@ -25,8 +27,22 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'user_id',
-            'department_id',
+            'user.username',
+            'user.email',
+             [
+                'format' => 'html',
+                'attribute'=>'department_id',
+                'value'=>function($model){
+                    return $model->department->department;
+                },
+                'filter' => Html::activeDropDownList($searchModel, 
+                        'department_id', 
+                        ArrayHelper::map(Department::find()->all(), 
+                                'id', 
+                                'department'),
+                        ['class' => 'form-control', 
+                            'prompt' => 'เลือกสังกัด']),
+            ],
             'firstname',
             'lastname',
             'address:ntext',

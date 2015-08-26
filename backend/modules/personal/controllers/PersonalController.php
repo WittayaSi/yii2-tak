@@ -13,10 +13,9 @@ use common\models\User;
 /**
  * PersonalController implements the CRUD actions for Personal model.
  */
-class PersonalController extends Controller
-{
-    public function behaviors()
-    {
+class PersonalController extends Controller {
+
+    public function behaviors() {
         return [
             'verbs' => [
                 'class' => VerbFilter::className(),
@@ -31,14 +30,13 @@ class PersonalController extends Controller
      * Lists all Personal models.
      * @return mixed
      */
-    public function actionIndex()
-    {
+    public function actionIndex() {
         $searchModel = new PersonalSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
+                    'searchModel' => $searchModel,
+                    'dataProvider' => $dataProvider,
         ]);
     }
 
@@ -47,10 +45,9 @@ class PersonalController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionView($id)
-    {
+    public function actionView($id) {
         return $this->render('view', [
-            'model' => $this->findModel($id),
+                    'model' => $this->findModel($id),
         ]);
     }
 
@@ -59,17 +56,23 @@ class PersonalController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
-    {
+    public function actionCreate() {
         $model = new Personal();
         $user = new User();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post()) && $user->load(Yii::$app->request->post())) {
+
+            $user->auth_key = Yii::$app->security->generateRandomString();
+            $user->password_hash = Yii::$app->security->generatePasswordHash($user->password_hash);
+            if ($user->save()) {
+                $model->user_id = $user->id;
+                $model->save();
+            }
             return $this->redirect(['view', 'id' => $model->user_id]);
         } else {
             return $this->render('create', [
-                'model' => $model,
-                'user' => $user,
+                        'model' => $model,
+                        'user' => $user,
             ]);
         }
     }
@@ -80,15 +83,21 @@ class PersonalController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($id)
-    {
+    public function actionUpdate($id) {
         $model = $this->findModel($id);
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        $user = User::findOne($id);
+        $old_pass = $user->password_hash; //รหัสผ่านเดิม
+        if ($model->load(Yii::$app->request->post()) && $user->load(Yii::$app->request->post())) {
+            if ($old_pass != $user->password_hash) {//ตรวจสอบรหัสผ่านเดิมกับใหม่
+                $user->password_hash = Yii::$app->security->generatePasswordHash($user->password_hash);
+            }
+            $user->save();
+            $model->save();
             return $this->redirect(['view', 'id' => $model->user_id]);
         } else {
             return $this->render('update', [
-                'model' => $model,
+                        'model' => $model,
+                        'user' => $user,
             ]);
         }
     }
@@ -99,8 +108,7 @@ class PersonalController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionDelete($id)
-    {
+    public function actionDelete($id) {
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
@@ -113,12 +121,12 @@ class PersonalController extends Controller
      * @return Personal the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id)
-    {
+    protected function findModel($id) {
         if (($model = Personal::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
 }

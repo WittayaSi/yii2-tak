@@ -1,8 +1,9 @@
 <?php
 
 namespace backend\modules\personal\models;
+use backend\modules\setting\models\Department;
+use common\models\User;
 
-use Yii;
 
 /**
  * This is the model class for table "personal".
@@ -81,6 +82,6 @@ class Personal extends \yii\db\ActiveRecord
      */
     public function getUser()
     {
-        return $this->hasOne(Yii2-takUser::className(), ['id' => 'user_id']);
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 }

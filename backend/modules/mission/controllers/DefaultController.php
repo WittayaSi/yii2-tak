@@ -24,7 +24,7 @@ class DefaultController extends Controller {
             //Testing
             $Event = new \yii2fullcalendar\models\Event();
             $Event->id = $time->id;
-            $Event->title = $time->title.'-'.$time->personal->firstname.' '.$time->personal->lastname;
+            $Event->title = $time->title.' - '.$time->personal->firstname.' '.$time->personal->lastname;
             $Event->start = $time->date_start;
             $Event->end = $time->date_end;
             $Event->color = $time->personal->color;

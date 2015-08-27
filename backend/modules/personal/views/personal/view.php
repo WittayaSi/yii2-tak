@@ -2,12 +2,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-
+use common\models\User;
 /* @var $this yii\web\View */
 /* @var $model backend\modules\personal\models\Personal */
 
-$this->title = $model->user_id;
-$this->params['breadcrumbs'][] = ['label' => 'Personals', 'url' => ['index']];
+$this->title = User::findOne($model->user_id)->username;
+$this->params['breadcrumbs'][] = ['label' => 'บุคลากร', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="personal-view">
@@ -28,8 +28,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'user.username',
-            'user.email',
+            [
+                'attribute' => 'username',
+                'value' => $model->user->username
+            ],
+            [
+                'attribute' => 'email',
+                'value' => $model->user->email
+            ],
             'department.department',
             'firstname',
             'lastname',

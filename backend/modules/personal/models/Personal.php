@@ -57,7 +57,7 @@ class Personal extends \yii\db\ActiveRecord
             'lastname' => 'สกุล',
             'address' => 'ที่อยู่',
             'tel' => 'เบอร์โทร',
-            'color' => 'Color',
+            'color' => 'สีประจำตัว',
         ];
     }
 

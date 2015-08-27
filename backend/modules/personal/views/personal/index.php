@@ -9,7 +9,7 @@ use backend\modules\setting\models\Department;
 /* @var $searchModel backend\modules\personal\models\PersonalSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Personals';
+$this->title = 'บุคลากร';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="personal-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Personal', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('เพิ่มบุคลากร', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -27,8 +27,14 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'user.username',
-            'user.email',
+            [
+                'attribute' => 'username',
+                'value' => function($model){return $model->user->username;}
+            ],
+            [
+                'attribute' => 'email',
+                'value' => function($model){return $model->user->email;}
+            ],
              [
                 'format' => 'html',
                 'attribute'=>'department_id',

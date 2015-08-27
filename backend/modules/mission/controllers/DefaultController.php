@@ -3,7 +3,6 @@
 namespace backend\modules\mission\controllers;
 
 use yii\web\Controller;
-use Yii;
 use backend\modules\mission\models\Mission;
 use yii\helpers\Url;
 

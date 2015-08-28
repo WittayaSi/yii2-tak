@@ -98,6 +98,28 @@ use yii\helpers\Url;
                     ]   
                 ],
                 [
+                    'label' => 'รายงาน',
+                    'url' => '#',
+                    'icon' => 'fa-area-chart',
+                    'options' => [
+                        'class' => 'treeview'
+                    ],
+                    'items' => [
+                        [
+                            'label' => 'รายงาาน1',
+                            'url' => ['/mission/report/report1'],
+                            'icon' => 'fa-bar-chart',
+                            'active' => Yii::$app->request->url === Url::toRoute('/mission/report/report1'),
+                        ],
+                        [
+                            'label' => 'รายงาน2',
+                            'url' => ['/mission/report/report2'],
+                            'icon' => 'fa-line-chart',
+                            'active' => Yii::$app->request->url === Url::toRoute('/mission/report/report2'),
+                        ],
+                    ]   
+                ],
+                [
                     'label' => 'ตั้งค่า',
                     'url' => '#',
                     'icon' => 'fa-cogs',

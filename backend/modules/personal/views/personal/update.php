@@ -10,13 +10,16 @@ $this->params['breadcrumbs'][] = ['label' => 'บุคลากร', 'url' => [
 $this->params['breadcrumbs'][] = ['label' => $model->user_id, 'url' => ['view', 'id' => $model->user_id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
-<div class="personal-update">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <?= $this->render('_form', [
-        'model' => $model,
-        'user' => $user,
-    ]) ?>
-
+<div class="box box-info box-solid">
+    <div class="box-header with-border">
+        <center><h3><?= yii\helpers\Html::encode($this->title); ?></h3></center>
+    </div>
+    <div class="box-body">
+        <?=
+        $this->render('_form', [
+            'model' => $model,
+            'user' => $user,
+        ])
+        ?>
+    </div>
 </div>

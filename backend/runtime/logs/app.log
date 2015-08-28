@@ -1,0 +1,2210 @@
+2015-08-28 08:05:24 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/index.php' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index.php', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:05:24 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_GET = [
+    'r' => 'mission'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '54959'
+    'REDIRECT_QUERY_STRING' => 'r=mission'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mission'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index.php?r=mission'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440741924.368
+    'REQUEST_TIME' => 1440741924
+]
+2015-08-28 08:05:26 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/index.php' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index.php', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:05:26 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_GET = [
+    'r' => 'mission'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index.php?r=mission'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '54962'
+    'REDIRECT_QUERY_STRING' => 'r=mission'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mission'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index.php?r=mission'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440741926.78
+    'REQUEST_TIME' => 1440741926
+]
+2015-08-28 08:05:52 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/default/index.php' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index.php', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/default...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:05:52 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_GET = [
+    'r' => 'mission'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '54971'
+    'REDIRECT_QUERY_STRING' => 'r=mission'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/default/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mission'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/default/index.php?r=mission'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440741952.399
+    'REQUEST_TIME' => 1440741952
+]
+2015-08-28 08:06:26 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/default/index.php' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index.php', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/default...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:06:26 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_GET = [
+    'r' => 'mission'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '54985'
+    'REDIRECT_QUERY_STRING' => 'r=mission'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/default/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mission'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/default/index.php?r=mission'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440741986.722
+    'REQUEST_TIME' => 1440741986
+]
+2015-08-28 08:07:49 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'คุณไม่ได้รับอนุญาตให้ดำเนินการนี้' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('personal/person...', Array)
+#9 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-28 08:07:48 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/report/report2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55003'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/personal/personal/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/personal/personal/create'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440742068.956
+    'REQUEST_TIME' => 1440742068
+]
+2015-08-28 08:07:54 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'คุณไม่ได้รับอนุญาตให้ดำเนินการนี้' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#8 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('personal/person...', Array)
+#9 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-28 08:07:54 [::1][26][j85dhovb2qri0j4pc5cbfubfo1][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'j85dhovb2qri0j4pc5cbfubfo1'
+    '_identity' => 'f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[26,\"maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n\",2592000]\";}'
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/yii2-tak/backend/web/index.php'
+    '__id' => 26
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/personal/personal/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=j85dhovb2qri0j4pc5cbfubfo1; _identity=f4ad69701270deadb7e90e0a476f5f46e09f1e5f6cf3e34ee687b3d14dee6d64a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B26%2C%22maHIe3KTR3y1ziyy4JD2ZhQGSe9l7A4n%22%2C2592000%5D%22%3B%7D; _csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55012'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/personal/personal/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii2-tak/backend/web/personal/personal/update?id=1'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440742074.125
+    'REQUEST_TIME' => 1440742074
+]
+2015-08-28 08:32:21 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: D:\wamp\www\yii2-tak\backend/messages/th_TH/app.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\backend/messages/th/app.php
+2015-08-28 08:32:20 [::1][25][-][info][application] $_GET = [
+    'id' => '24'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/personal/personal/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55165'
+    'REDIRECT_QUERY_STRING' => 'id=24'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/personal/personal/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=24'
+    'REQUEST_URI' => '/yii2-tak/backend/web/personal/personal/update?id=24'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743540.604
+    'REQUEST_TIME' => 1440743540
+]
+2015-08-28 08:32:42 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'คุณไม่ได้รับอนุญาตให้ดำเนินการนี้' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php:151
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\filters\AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(263): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#8 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#9 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-08-28 08:32:41 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][info][application] $_GET = [
+    'id' => '18'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55169'
+    'REDIRECT_QUERY_STRING' => 'id=18'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=18'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/update?id=18'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743561.943
+    'REQUEST_TIME' => 1440743561
+]
+2015-08-28 08:37:31 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''columns'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in D:\wamp\www\yii2-tak\backend\modules\mission\views\mission\index.php:39
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#2 D:\wamp\www\yii2-tak\backend\modules\mission\controllers\MissionController.php(59): yii\base\Controller->render()
+#3 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php(55): backend\modules\mission\controllers\MissionController->actionIndex()
+#4 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-28 08:37:31 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55320'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743851.247
+    'REQUEST_TIME' => 1440743851
+]
+2015-08-28 08:37:45 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''columns'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in D:\wamp\www\yii2-tak\backend\modules\mission\views\mission\index.php:39
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#2 D:\wamp\www\yii2-tak\backend\modules\mission\controllers\MissionController.php(59): yii\base\Controller->render()
+#3 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php(55): backend\modules\mission\controllers\MissionController->actionIndex()
+#4 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2015-08-28 08:37:44 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55329'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743864.899
+    'REQUEST_TIME' => 1440743864
+]
+2015-08-28 08:38:04 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:38:04 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55338'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743884.218
+    'REQUEST_TIME' => 1440743884
+]
+2015-08-28 08:38:57 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:38:57 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55426'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743937.737
+    'REQUEST_TIME' => 1440743937
+]
+2015-08-28 08:39:13 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:39:13 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55450'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743953.307
+    'REQUEST_TIME' => 1440743953
+]
+2015-08-28 08:39:23 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:39:23 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55457'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440743963.324
+    'REQUEST_TIME' => 1440743963
+]
+2015-08-28 08:46:11 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:46:10 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55492'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744370.783
+    'REQUEST_TIME' => 1440744370
+]
+2015-08-28 08:46:25 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:46:25 [::1][25][-][info][application] $_GET = [
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'MGUyMy1pNU4dB1cEZyBdFGI8ClB0Pw0GZi5zVXo2GDhFBAdVZAFefg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55504'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744385.332
+    'REQUEST_TIME' => 1440744385
+]
+2015-08-28 08:46:27 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:46:26 [::1][25][-][info][application] $_GET = [
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'MGUyMy1pNU4dB1cEZyBdFGI8ClB0Pw0GZi5zVXo2GDhFBAdVZAFefg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55504'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744386.898
+    'REQUEST_TIME' => 1440744386
+]
+2015-08-28 08:46:28 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/grid-demo' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('grid-demo', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:46:28 [::1][-][-][info][application] $_GET = [
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'MGUyMy1pNU4dB1cEZyBdFGI8ClB0Pw0GZi5zVXo2GDhFBAdVZAFefg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55504'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/grid-demo?_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744388.299
+    'REQUEST_TIME' => 1440744388
+]
+2015-08-28 08:46:28 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/grid-demo' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('grid-demo', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:46:28 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55504'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744388.387
+    'REQUEST_TIME' => 1440744388
+]
+2015-08-28 08:46:31 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:46:31 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55504'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744391.376
+    'REQUEST_TIME' => 1440744391
+]
+2015-08-28 08:46:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/grid-demo' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('grid-demo', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:46:38 [::1][-][-][info][application] $_GET = [
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'anZYMVc0YlhHFD0GHX0KAjgvYFIOYloQPD0ZVwBrTy4fF21XHlwJaA=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55510'
+    'REDIRECT_QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/grid-demo?_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744398.788
+    'REQUEST_TIME' => 1440744398
+]
+2015-08-28 08:46:38 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: mission/mission/grid-demo' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('grid-demo', Array)
+#1 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('mission/mission...', Array)
+#2 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'ไม่พบหน้า' in D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\wamp\www\yii2-tak\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\yii2-tak\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2015-08-28 08:46:38 [::1][25][e4fjbbe7hgr7583ev4pivnfvd0][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55510'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/grid-demo'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744398.877
+    'REQUEST_TIME' => 1440744398
+]
+2015-08-28 08:46:40 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:46:40 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55510'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744400.177
+    'REQUEST_TIME' => 1440744400
+]
+2015-08-28 08:47:17 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:47:17 [::1][25][-][info][application] $_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55517'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744437.27
+    'REQUEST_TIME' => 1440744437
+]
+2015-08-28 08:47:24 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:47:23 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'OTdMckRwOFkUVSlFDjlQA2tudBEdJgARb3wNFBMvFS9MVnkUDRhTaQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55520'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744443.954
+    'REQUEST_TIME' => 1440744443
+]
+2015-08-28 08:49:59 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:49:58 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55531'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744598.835
+    'REQUEST_TIME' => 1440744598
+]
+2015-08-28 08:50:02 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:50:01 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'page'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'MHREdDc4ci4dFiFDfXEadGItfBdubkpmZj8FEmBnX1hFFXESflAZHg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55533'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744601.915
+    'REQUEST_TIME' => 1440744601
+]
+2015-08-28 08:50:03 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:50:03 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'MHREdDc4ci4dFiFDfXEadGItfBdubkpmZj8FEmBnX1hFFXESflAZHg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55533'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744603.455
+    'REQUEST_TIME' => 1440744603
+]
+2015-08-28 08:54:01 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:01 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55550'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744841.185
+    'REQUEST_TIME' => 1440744841
+]
+2015-08-28 08:54:04 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:03 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55550'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744843.816
+    'REQUEST_TIME' => 1440744843
+]
+2015-08-28 08:54:12 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:12 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'page'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'UTFLZTVoTUd8Uy5SfyElHQNocwZsPnUPB3oKA2I3YDEkUH4DfAAmdw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55566'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744852.563
+    'REQUEST_TIME' => 1440744852
+]
+2015-08-28 08:54:16 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:16 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'UTFLZTVoTUd8Uy5SfyElHQNocwZsPnUPB3oKA2I3YDEkUH4DfAAmdw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55566'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744856.279
+    'REQUEST_TIME' => 1440744856
+]
+2015-08-28 08:54:18 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:18 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'page'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'UTFLZTVoTUd8Uy5SfyElHQNocwZsPnUPB3oKA2I3YDEkUH4DfAAmdw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55566'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=page&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744858.117
+    'REQUEST_TIME' => 1440744858
+]
+2015-08-28 08:54:19 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 08:54:19 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+    '_pjax' => '#w0-pjax'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_CSRF_TOKEN' => 'UTFLZTVoTUd8Uy5SfyElHQNocwZsPnUPB3oKA2I3YDEkUH4DfAAmdw=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#w0-pjax'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/index?_tog1149016d=page'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55566'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all&_pjax=%23w0-pjax'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all&_pjax=%23w0-pjax'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440744859.048
+    'REQUEST_TIME' => 1440744859
+]
+2015-08-28 09:14:44 [::1][25][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'kvgrid' does not exist: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th_TH/kvgrid.php Fallback file does not exist as well: D:\wamp\www\yii2-tak\vendor\kartik-v\yii2-grid/messages/th/kvgrid.php
+2015-08-28 09:14:44 [::1][25][-][info][application] $_GET = [
+    '_tog1149016d' => 'all'
+]
+
+$_COOKIE = [
+    '_csrf' => '6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0\";}'
+    'PHPSESSID' => 'idbv99tt305p462vmth0ju2eh7'
+    'PHPBACKSESSID' => 'e4fjbbe7hgr7583ev4pivnfvd0'
+    '_identity' => 'aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da:2:{i:0;s:9:\"_identity\";i:1;s:47:\"[25,\"UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 25
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/yii2-tak/backend/web/mission/mission/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=6c1ff7b79c5d2006e67670478cbe2e47d7e604d3279044cfecc260ee00de58d7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-be7JIhZRY8cYV8HVKAfW_-vua5fIhk0%22%3B%7D; PHPSESSID=idbv99tt305p462vmth0ju2eh7; PHPBACKSESSID=e4fjbbe7hgr7583ev4pivnfvd0; _identity=aefd8e3b83f22bd4132fa080f784836ca039226e70544a88fe6e21368a840e5da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A47%3A%22%5B25%2C%22UvF_LQyGMJgOTMYKfebwGd-hbNYJaiFp%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/yii2-tak/backend/web/index.php'
+    'REMOTE_PORT' => '55626'
+    'REDIRECT_QUERY_STRING' => '_tog1149016d=all'
+    'REDIRECT_URL' => '/yii2-tak/backend/web/mission/mission/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_tog1149016d=all'
+    'REQUEST_URI' => '/yii2-tak/backend/web/mission/mission/index?_tog1149016d=all'
+    'SCRIPT_NAME' => '/yii2-tak/backend/web/index.php'
+    'PHP_SELF' => '/yii2-tak/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440746084.673
+    'REQUEST_TIME' => 1440746084
+]
